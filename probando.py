@@ -12,3 +12,5 @@ with open('datos.csv', 'r') as datos:
     for fila in lector_csv:
       print(fila)
       for celda in fila:
+         print(celda)
+         print("hello")
